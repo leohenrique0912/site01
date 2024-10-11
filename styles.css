@@ -1,0 +1,65 @@
+/* Reset básico */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #000000;
+    color: #fcf9f9;
+}
+
+/* Estilos do cabeçalho */
+.header {
+    background-color: #000000fa;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    padding: 50px 1;
+}
+
+.header__titulo {
+    font-size: 2.5em;
+}
+
+.header__logo {
+    width: 1000px;
+    margin-top: 30px;
+}
+
+/* Estilos principais */
+.container {
+    max-width: 1500px;
+    margin: 100px auto;
+    padding: 15px;
+    background-color: rgb(27, 23, 23);
+    border-radius: 40px;
+    box-shadow: 2 5px 80px rgb(0, 0, 0);
+}
+
+.container__titulo {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.container__descricao {
+    font-size: 1.9em;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.container__botao {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #4744f5;
+    color: rgb(240, 240, 240);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 1.5s;
+}
+
+.container__botao:hover {
+    background-color: #0056b3;
+}
+
